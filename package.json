@@ -1,0 +1,17 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "testcafe": "^1.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "testcafe chrome lcm.spec.ts -s takeOnFails=true --debug-mode",
+    "live": "testcafe chrome lcm.spec.ts -L",
+    "debug": "testcafe chrome lcm.spec.ts --debug-mode"
+  },
+  "author": "",
+  "license": "ISC"
+}
